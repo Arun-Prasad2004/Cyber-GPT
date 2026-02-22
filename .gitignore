@@ -14,12 +14,20 @@ ENV/
 *.pth
 *.ckpt
 
-# Data files
+# Large data files
 *.zip
 *.json
 *.xml
 data/raw/
-data/data/raw/
+data/data/
+data/processed/
+data/security.stackexchange.com/
+data/serverfault.com/
+data/advisory-database-main/
+cwe_extracted/
+
+# Tokenizer model (can be large)
+tokenizer/cyber_tokenizer.json
 
 # IDE
 .vscode/
