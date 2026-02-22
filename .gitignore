@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+venv310/
+env/
+ENV/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Data files
+*.zip
+*.json
+*.xml
+data/raw/
+data/data/raw/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
